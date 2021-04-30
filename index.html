@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!-- Responsividade-->
+    <link rel="stylesheet" href="./style/responsive.css">
+    
+    <!-- Css Ownl - Carrosel de imagens -->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+  <header>
+      <div class="container">
+          <h2 class="logo">NETMUSIC</h2>
+          <nav>
+              <a href="#">Partituras</a>
+              <a href="#">Instrumentos</a>
+              <a href="#">Escolas</a>
+              <a href="#">Professores</a>
+            </nav>
+      </div>
+       
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+         <h3 class="titulo">INSTRUMENTOS MUSICAIS</h3>
+           <p class="descricao">
+           Instrumentos de cordas são instrumentos musicais cuja fonte <br>
+		   primária de som é a vibração  de uma corda tensionada 
+		   quando beliscada, percutida ou friccionada.
+          </p>
+          <div class="botoes">
+              <button role="button" class="botao"> <!-- A propriedade role define que o botão é sempre botão 
+                em quando renderizado em outros equipamentoes - tablet, celular -->
+                <i class="fas fa-play"></i>  <!-- <i></i> para que server?-->
+                ASSISTIR AGORA
+             </button>
+             <button role="button" class="botao">
+                 <i class="fas fa-info-circle"></i>
+                 MAIS INFORMAÇÕES  
+              </button>
+           </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento1.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img  class="box-filme" src="./img/instrumento2.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento3.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento4.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento5.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento6.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento7.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento8.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento9.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="./img/instrumento10.png" alt="" srcset="">
+      </div>
+      
+	  
+      
+    </div>
+
+  </div>
+   	<iframe width="420" height="315"
+			src="./videos/bach.mp4">
+	</iframe>
+	<iframe width="420" height="315"
+			src="./videos/vivaldi.mp4">
+	</iframe>
+	<iframe width="420" height="315"
+			src="./videos/handel.mp4">
+	</iframe>
+	
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="./js/owl/jquery.min.js"></script>
+  <script src="./js/owl/owl.carousel.min.js"></script>
+  <script src="./js/owl/setup.js"></script>
+
+</body>
+</html>
